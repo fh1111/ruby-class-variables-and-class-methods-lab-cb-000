@@ -17,9 +17,9 @@ class Song
       @@genres << genre
     #end
 
-    if (!@@artists.include?(artist))
+    #if (!@@artists.include?(artist))
       @@artists << artist
-    end
+    #end
 
   end
 
